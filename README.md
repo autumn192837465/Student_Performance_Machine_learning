@@ -9,13 +9,13 @@ This data approach student achievement in secondary education of two Portuguese 
 Attribute Information:
 
 # Attributes for both student-mat.csv (Math course) and student-por.csv (Portuguese language course) datasets:
-1. school - student's school (binary: 'GP' - Gabriel Pereira or 'MS' - Mousinho da Silveira)<li>
-2. sex - student's sex (binary: 'F' - female or 'M' - male)<li>
-3. age - student's age (numeric: from 15 to 22)<li>
-4. address - student's home address type (binary: 'U' - urban or 'R' - rural)<li>
-5. famsize - family size (binary: 'LE3' - less or equal to 3 or 'GT3' - greater than 3)<li>
-6. Pstatus - parent's cohabitation status (binary: 'T' - living together or 'A' - apart)<li>
-7. Medu - mother's education (numeric: 0 - none, 1 - primary education (4th grade), 2 â€“ 5th to 9th grade, 3 â€“ secondary education or 4 â€“ higher education)<li>
+1. school - student's school (binary: 'GP' - Gabriel Pereira or 'MS' - Mousinho da Silveira)
+2. sex - student's sex (binary: 'F' - female or 'M' - male)
+3. age - student's age (numeric: from 15 to 22)
+4. address - student's home address type (binary: 'U' - urban or 'R' - rural)
+5. famsize - family size (binary: 'LE3' - less or equal to 3 or 'GT3' - greater than 3)
+6. Pstatus - parent's cohabitation status (binary: 'T' - living together or 'A' - apart)
+7. Medu - mother's education (numeric: 0 - none, 1 - primary education (4th grade), 2 â€“ 5th to 9th grade, 3 â€“ secondary education or 4 â€“ higher education)
 8. Fedu - father's education (numeric: 0 - none, 1 - primary education (4th grade), 2 â€“ 5th to 9th grade, 3 â€“ secondary education or 4 â€“ higher education)
 9. Mjob - mother's job (nominal: 'teacher', 'health' care related, civil 'services' (e.g. administrative or police), 'at_home' or 'other')
 10. Fjob - father's job (nominal: 'teacher', 'health' care related, civil 'services' (e.g. administrative or police), 'at_home' or 'other')
