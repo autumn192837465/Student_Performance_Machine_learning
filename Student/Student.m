@@ -25,6 +25,7 @@ theta = rand(fn + 1,1);
 
 preY = testX * theta;
 
+fprintf("Difference : %f\n",mean(abs(preY - testY)))
 A = [preY testY];
 fprintf("   Predict    Actual\n\n");
 disp(A)
