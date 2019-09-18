@@ -23,7 +23,7 @@ testY = y(r(round(dn * 0.7) + 1:end),1);
 theta = rand(fn + 1,1);
 
 %% training
-options = optimset('GradObj', 'on', 'MaxIter', 10000000);
+options = optimset('GradObj', 'on', 'MaxIter', iter);
 %[theta,j] = GradientDescent(trainX,trainY,theta,alpha,iter);
 
 [theta, j] = fminunc(@(t)(CostFunction(t, X, y)), theta, options);
